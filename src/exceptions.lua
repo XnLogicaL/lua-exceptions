@@ -27,6 +27,7 @@ module = {
 	exceptions = {
 		["UnregisteredExceptionError"] = function() return "UnregisteredExceptionError" end,
 		["BaseException"] = function() return "BaseException" end,
+		["LogicError"] = function() return "LogicError" end,
 		["TypeError"] = function() return "TypeError" end,
 		["ValueError"] = function() return "ValueError" end,
 		["AssertionError"] = function() return "AssertionError" end,
